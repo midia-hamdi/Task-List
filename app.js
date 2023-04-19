@@ -15,5 +15,9 @@ function LoadEventListeners(){
 
 // Add task 
 function addTask(e){
-    
+    if(taskInput.value === ''){
+        alert('To add a task, first enter the task.')
+    } else {
+        // create li element
+    }
 }
